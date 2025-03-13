@@ -9,10 +9,10 @@ terraform {
   backend "s3" {
     bucket = "terraform-state-khoa-hoang"
     key    = "terraform-state-aws-waf"
-    region = var.primary_region
+    region = "us-west-1"
   }
 }
 
 provider "aws" {
-  region = var.primary_region
+  region = var.region
 }

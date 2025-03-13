@@ -1,3 +1,3 @@
-variable "primary_region" {
-  default = "us-west-1"
+variable "region" {
+  default = "us-east-1"
 }
